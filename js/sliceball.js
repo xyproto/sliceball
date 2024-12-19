@@ -909,9 +909,3 @@ function init(level) {
   //canvas.removeEventListener("touchstart", mouse_down_handler);
   //canvas.addEventListener("touchstart",mouse_down_handler, false);
 }
-
-$(document).ready(function(){
-  new_game();
-});
-
-// vim:set ts=2 sw=2 et:
