@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sliceball</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="sliceball.css">
+  </head>
+  <body onload="new_game()">
+    <div id="title">Sliceball</div>
+    <div id="infotext"></div>
+    <canvas dblclick="new_game();" id="sliceball" width="640" height="480"></canvas>
+    <script type="text/javascript" src="js/sliceball.js"></script>
+    <audio preload="true" id="lazer">
+      <source src="snd/lazer.wav" />
+    </audio>
+    <audio preload="true" id="bounce">
+      <source src="snd/bounce.wav" />
+    </audio>
+    <audio preload="true" id="computermusic" loop="true">
+      <source src="snd/computermusic.ogg" />
+      <source src="snd/computermusic.mp3" />
+      <source src="snd/computermusic.wav" />
+    </audio>
+    <audio preload="true" id="gameover" loop="true">
+      <source src="snd/jazzyweirdness2.ogg" />
+      <source src="snd/jazzyweirdness2.mp3" />
+      <source src="snd/jazzyweirdness2.wav" />
+    </audio>
+    <audio preload="true" id="youwon" loop="true">
+      <source src="snd/0000.ogg" />
+      <source src="snd/0000.mp3" />
+      <source src="snd/0000.wav" />
+    </audio>
+    <audio preload="true" id="new_fresh">
+      <source src="snd/new_fresh.wav" />
+    </audio>
+    <audio preload="true" id="explode">
+      <source src="snd/explode.wav" />
+    </audio>
+    <audio preload="true" id="win">
+      <source src="snd/powerup.wav" />
+    </audio>
+    <div id="buttonrow">
+      <button id="newgame" onclick="new_game();">New Game</button>
+      <button id="pause" disabled="true" onclick="pause_handler();">Pause</button>
+      <button id="resume" onclick="resume_handler();">Resume</button>
+      <button id="highscores" onclick="view_highscores();">Highscores</button>
+      <button id="sound on" onclick="sound_on();">Sound on</button>
+    </div>
+  </body>
+</html>

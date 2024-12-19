@@ -1,0 +1,40 @@
+body {
+  background: #151515;
+  position: fixed;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+}
+
+#title {
+  font-family: sans-serif;
+  font-size: 2em;
+  margin-left: 2em;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  font-family: courier new, courier, monospace;
+  color: #00ff00;
+}
+
+#sliceball {
+  border: 2px solid;
+  margin-left: 4em;
+  margin-bottom: 1em;
+}
+
+#infotext {
+  font-family: courier new, courier, monospace;
+  margin-left: 4em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  color: #00d000;
+}
+
+button {
+  margin-top: 0.2em;
+  margin-right: 0.4em;
+}
+
+#buttonrow {
+  margin-left: 4em;
+}
